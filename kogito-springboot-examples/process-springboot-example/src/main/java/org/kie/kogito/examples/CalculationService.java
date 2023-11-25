@@ -26,6 +26,9 @@ public class CalculationService {
     private Random random = new Random();
 
     public Order calculateTotal(Order order) {
+
+        System.out.println("==================");
+
         order.setTotal(random.nextDouble());
 
         return order;
